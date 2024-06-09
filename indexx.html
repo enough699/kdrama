@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shubh Flix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+   <div class="lin">
+        <div class='logoo'>
+         <img src="logo.svg" alt='logo' class="logo" />
+        <h1 class='title'>ShubhFLIX</h1>
+        </div>
+        <nav class="dev">
+            <p class="ter">Made With <span>❤️</span>by Developer Shubham</p>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+  <div><p class="lov">Welcome to ShubhFlix!</p></div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active" data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>  <img src="1.jpg" alt="Los Angeles" style="width:100%;" class="img-rounded">
+      </div>
+
+      <div class="item" data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>
+        <img src="2.jpeg" alt="Chicago" style="width:100%;" class="img-rounded">
+      </div>
+
+      <div class="item"data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>  <img src="3.jpeg" alt="New York" style="width:100%;" class="img-rounded">
+      </div>
+
+      <div class="item" data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>  <img src="4.jpeg" alt="New York" style="width:100%;" class="img-rounded">
+      </div>
+
+      <div class="item" data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>  <img src="5.jpg" alt="New York" style="width:100%;" class="img-rounded">
+      </div>
+
+      <div class="item" data-episodes='[
+      {"episode": "Episode 1", "link": "https://ia904702.us.archive.org/13/items/the-glory-2022-ep-04/TheGlory2022EP04.ia.mp4"},
+      {"episode": "Episode 2", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"},
+      {"episode": "Episode 3", "link": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"}
+    ]'>   <img src="6.jpg" alt="New York" style="width:100%;" class="img-rounded">
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="bot">💫Welcome To The Magical World💫</div>
+
+<div id="videoWindow" class="video-window">
+  <div class="video-container">
+    <video id="videoView" class="video-view" controls>
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="episode-container">
+    <select id="episodeSelect">
+      <!-- episode options will be generated dynamically -->
+    </select>
+  </div>
+  
+  <div class="button-container">
+    <button id="closeButton" class="video-button">X</button>
+  </div>
+</div>
+
+<style>
+  body {
+    background-color: black;
+    color: aliceblue;
+  }
+  .img-rounded {
+    border-radius: 10px;
+  }
+  .carousel {
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .logoo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .lin {
+    align-items: center;
+    position: inherit;
+  }
+  .dev {
+    margin-right: 10px;
+    float: right;
+  }
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .ter {
+    font-size: 1rem;
+  }
+  .lov {
+    font-weight: bold;
+    opacity: 75%;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .bot {
+    text-align: center;
+    position: flex;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  @media (max-width: 767.98px) {
+    .carousel {
+      width: 100%;
+    }
+    .lov {
+      font-size: 2rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel {
+      width: 75%;
+    }
+  }
+  @media (min-width: 992px) {
+    .carousel {
+      width: 75%;
+    }
+    .ter {
+      font-size: 2rem;
+    }
+  }
+  .video-window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .video-container {
+    position: relative;
+    width: 400px;
+    padding-top: 56.25%;
+  }
+  .video-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .video-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  #closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 0 10px;
+  }
+  .episode-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #420000;
+}
+
+.episode-select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.episode-option {
+  padding: 10px;
+  border-bottom: 1px solid #040000;
+}
+
+.episode-option:hover {
+  background-color: #420000;
+}
+
+.episode-option:selected {
+  background-color: #4d2b50;
+  color: #333;
+}
+</style>
+
+<script>
+  const messages = [
+    "Good morning, my love. You are the first thing on my mind when I wake up ❤️",
+    "I cherish every moment we spend together. You make my life brighter 💛",
+    "You are my sunshine, even on the cloudiest days ☀️",
+    "I am so grateful to have you in my life. You are my everything 💕",
+    "I love you more and more each day. You are my heart's true home 🏠",
+    "You are the most beautiful person I know, both inside and out 💁‍♀️",
+    "I am so lucky to be able to call you mine. You are my dream come true 💫",
+    "I love the way you make me feel. You are my joy, my peace, and my happiness 😊",
+    "You are my best friend, my confidant, and my partner in crime. I love you more than words can express 💯",
+    "I am so grateful for your love and support. You are my rock, my guiding star, and my inspiration 🌟",
+    "I love the way you make me laugh, even when I don't feel like it. You are my sunshine on a cloudy day ☁️",
+    "I am so grateful for your patience, your kindness, and your understanding. You are my everything 🙏",
+    "I love the way you make me feel when I am with you. You are my heart's true home 🏠",
+    "I am so grateful for your love and companionship. You are my best friend, my confidant, and my partner in crime 💕",
+    "I love you more and more each day. You are my heart's true home, and I am so grateful to be able to call you mine 💗"
+  ];
+
+  function displayRandomMessage() {
+    const message = messages[Math.floor(Math.random() * messages.length)];
+    document.querySelector('.lov').textContent = message;
+  }
+
+  window.onload = displayRandomMessage;
+  window.onbeforeunload = displayRandomMessage;
+
+  const videoWindow = document.getElementById('videoWindow');
+  const videoView = document.getElementById('videoView');
+  const items = document.querySelectorAll('.item');
+  const episodeSelect = document.getElementById('episodeSelect');
+
+  const closeButton = document.getElementById('closeButton');
+
+  items.forEach((item) => {
+  const episodeLinks = JSON.parse(item.getAttribute('data-episodes'));
+  item.addEventListener('click', () => {
+    videoWindow.style.display = 'block';
+    episodeSelect.innerHTML = '';
+    episodeLinks.forEach((episode) => {
+      const option = document.createElement('option');
+      option.value = episode.link;
+      option.text = episode.episode;
+      episodeSelect.appendChild(option);
+    });
+    episodeSelect.value = episodeLinks[0].link; // default to first episode
+    videoView.src = episodeSelect.value;
+    videoView.play();
+  });
+});
+episodeSelect.addEventListener('change', () => {
+  videoView.src = episodeSelect.value;
+  videoView.play();
+});
+  closeButton.addEventListener('click', () => {
+    videoWindow.style.display = 'none';
+    videoView.pause();
+  });
+</script>
+</body>
+</html>
